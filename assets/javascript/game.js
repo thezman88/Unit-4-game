@@ -6,14 +6,7 @@ $(document).ready(function() {
 		console.log("compPick: " + compPick);
 		$(".randomNumber").html(compPick);
 
-	// var randomArray = [];
-	// 	console.log("randomArray: " + randomArray);
 
-	// for (i = 0 ; i < 4 ; i++) {
-	// 	var gemNumber = Math.floor(Math.random() * 12) + 1;
-	// 		console.log("gemNumber: " + gemNumber);
-	// 	randomArray.push(gemNumber);
-	// }
 
 	var gemOne = Math.floor(Math.random() * 12) + 1;
 		console.log("Gem 1: " + gemOne);
@@ -29,7 +22,7 @@ $(document).ready(function() {
 
 	var gemFour = Math.floor(Math.random() * 12) + 1;
 		console.log("Gem 4: " + gemFour);
-		$("#img4").html("<img src=" + "assets/images/image4.png" + " value=" + gemFour + ">");
+		$("#img4").html("<img src=" + "assets/images/1073269.svg" + " value=" + gemFour + ">");
 
 	var wins = 0;
 		console.log("wins: " + wins);
@@ -62,7 +55,7 @@ $(document).ready(function() {
 
 		gemFour = Math.floor(Math.random() * 12) + 1;
 			console.log("Gem 4: " + gemFour);
-		$("#img4").html("<img src=" + "assets/images/image4.png" + " value=" + gemFour + ">");
+		$("#img4").html("<img src=" + "assets/images/1073269.svg" + " value=" + gemFour + ">");
 
 		$("img").on("click", function () {
 			var newScore = score += parseInt($(this).attr("value"));
@@ -100,6 +93,7 @@ $(document).ready(function() {
 			wins++ ;
 			$(".wins").html("Wins: " + wins);
 				console.log("Wins: " + wins);
+        alert('Winner!');
 				reset();
 		}
 
@@ -107,6 +101,7 @@ $(document).ready(function() {
 			losses++ ;
 			$(".losses").html("Losses: " + losses);
 				console.log("Losses: " + losses);
+        alert('you lose!!!!');
 				reset();
 		}
 

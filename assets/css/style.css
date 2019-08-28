@@ -1,3 +1,10 @@
+body{
+  background-image: url(https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+
+
+
 .instruction {
   border: 2px solid black;
   padding: 2%;
@@ -50,6 +57,7 @@
 
 .header {
   font-family: 'Bungee', cursive;
+  color: #a4d1c8;
 }
 
 .wins, .losses {

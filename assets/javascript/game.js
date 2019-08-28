@@ -25,7 +25,7 @@ $(document).ready(function() {
 
 	var gemThree = Math.floor(Math.random() * 12) + 1;
 		console.log("Gem 3: " + gemThree);
-		$("#img3").html("<img src=" + "assets/images/image3.png" + " value=" + gemThree + ">");
+		$("#img3").html("<img src=" + "assets/images/2036039.svg" + " value=" + gemThree + ">");
 
 	var gemFour = Math.floor(Math.random() * 12) + 1;
 		console.log("Gem 4: " + gemFour);
@@ -58,7 +58,7 @@ $(document).ready(function() {
 
 		gemThree = Math.floor(Math.random() * 12) + 1;
 			console.log("Gem 3: " + gemThree);
-		$("#img3").html("<img src=" + "assets/images/image3.png" + " value=" + gemThree + ">");
+		$("#img3").html("<img src=" + "assets/images/2036039.svg" + " value=" + gemThree + ">");
 
 		gemFour = Math.floor(Math.random() * 12) + 1;
 			console.log("Gem 4: " + gemFour);

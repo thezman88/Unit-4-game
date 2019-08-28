@@ -66,6 +66,7 @@ $(document).ready(function() {
 				wins++ ;
 				$(".wins").html("Wins: " + wins);
 					console.log("Wins: " + wins);
+          alert('Winner!');
 					reset();
 
 			}
@@ -74,6 +75,7 @@ $(document).ready(function() {
 				losses++ ;
 				$(".losses").html("Losses: " + losses);
 					console.log("Losses: " + losses);
+            alert('you lose!!!!');
 					reset();
 
 			}
